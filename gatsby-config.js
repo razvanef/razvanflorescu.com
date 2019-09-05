@@ -26,10 +26,6 @@ module.exports = {
         path: '/now/',
       },
       {
-        label: 'jurnal',
-        path: 'http://graitor.tumblr.com/',
-      },
-      {
         label: 'about',
         path: '/about/',
       },
