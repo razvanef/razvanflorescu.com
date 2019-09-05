@@ -7,27 +7,35 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'razvan florescu',
     subtitle:
       'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
+    copyright: '2019 © All rights reserved.',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'thoughts',
         path: '/',
       },
       {
-        label: 'About me',
-        path: '/about/',
+        label: 'notes',
+        path: '/notes',
       },
       {
-        label: 'Contact me',
-        path: '/contact/',
+        label: '/now',
+        path: '/now/',
+      },
+      {
+        label: 'jurnal',
+        path: 'http://graitor.tumblr.com/',
+      },
+      {
+        label: 'about',
+        path: '/about/',
       },
     ],
     author: {
-      name: 'John Doe',
+      name: 'razvan florescu',
       email: '#',
       telegram: '#',
       twitter: '#',
