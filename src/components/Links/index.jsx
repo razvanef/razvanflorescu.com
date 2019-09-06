@@ -10,7 +10,7 @@ class Links extends React.Component {
       <div className="links">
         <ul className="links__list">
           {links.map(link => {
-            return link.url ? (<li className="links__list-item">
+            return link.url ? (<li className="links__list-item" key={link.name}>
               <a
                 href={link.url}
                 target="_blank"

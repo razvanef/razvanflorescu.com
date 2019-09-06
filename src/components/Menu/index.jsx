@@ -19,7 +19,7 @@ class Menu extends React.Component {
             </Link>
           </li>
         ))}
-        <li class="menu__list-item"><a class="menu__list-item-link" href="https:/graitor.tumblr.com/">jurnal</a></li>
+        <li className="menu__list-item"><a className="menu__list-item-link" href="https:/graitor.tumblr.com/">jurnal</a></li>
       </ul>
     )
 

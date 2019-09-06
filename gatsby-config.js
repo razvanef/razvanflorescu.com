@@ -15,7 +15,7 @@ module.exports = {
     menu: [
       {
         label: 'thoughts',
-        path: '/',
+        path: '/thoughts',
       },
       {
         label: 'notes',
@@ -23,11 +23,11 @@ module.exports = {
       },
       {
         label: '/now',
-        path: '/now/',
+        path: '/now',
       },
       {
         label: 'about',
-        path: '/about/',
+        path: '/',
       },
     ],
     author: {
