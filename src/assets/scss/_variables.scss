@@ -12,6 +12,7 @@ $color-gray: lighten($color-base, 40%);
 $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
 $color-gray-text: #333;
+$color-gray-link: #7d7d7d;
 
 // Typographic
 $typographic-font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -25,7 +26,7 @@ $typographic-small-font-size: 14px;
 $typographic-base-line-height: 1.625;
 
 $typographic-base-font-color: $color-base;
-$typographic-link-p-font-color: $color-primary;
+$typographic-link-p-font-color: $color-gray-link;
 $typographic-link-s-font-color: $color-secondary;
 
 $typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
