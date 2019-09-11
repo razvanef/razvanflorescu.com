@@ -9,11 +9,12 @@ class PostTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
+    const back = post.frontmatter.layout === "note" ? "/notes" : "/thoughts"
 
     const homeBlock = (
       <div>
-        <Link className="post-single__home-button" to="/">
-          All Articles
+        <Link className="post-single__home-button" to={back}>
+          Go back
         </Link>
       </div>
     )
@@ -62,7 +63,7 @@ class PostTemplateDetails extends React.Component {
           <div className="post-single__footer">
             {tagsBlock}
             <hr />
-            <p className="post-single__footer-text">
+            {/* <p className="post-single__footer-text">
               {subtitle}
               <a
                 href={`https://twitter.com/${author.twitter}`}
@@ -71,7 +72,7 @@ class PostTemplateDetails extends React.Component {
               >
                 <br /> <strong>{author.name}</strong> on Twitter
               </a>
-            </p>
+            </p> */}
             {commentsBlock}
           </div>
         </div>

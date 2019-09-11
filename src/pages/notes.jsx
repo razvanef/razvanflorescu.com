@@ -2,30 +2,39 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Note from '../components/Note'
 import Sidebar from '../components/Sidebar'
-import CategoryTemplateDetails from '../components/CategoryTemplateDetails'
 
-class CategoryTemplate extends React.Component {
+class NotesRoute extends React.Component {
   render() {
-    const { title } = this.props.data.site.siteMetadata
-    const { category } = this.props.pageContext
-
+    const items = []
+    const { title, subtitle } = this.props.data.site.siteMetadata
+    const posts = this.props.data.allMarkdownRemark.edges
+    posts.forEach(post => {
+      items.push(<Note data={post} key={post.node.fields.slug} />)
+    })
+console.log(this.props.data.allMarkdownRemark)
     return (
       <Layout>
         <div>
-          <Helmet title={`${category} - ${title}`} />
+          <Helmet>
+            <title>{title}</title>
+            <meta name="description" content={subtitle} />
+          </Helmet>
           <Sidebar {...this.props} />
-          <CategoryTemplateDetails {...this.props} />
+          <div className="content">
+            <div className="content__inner">{items}</div>
+          </div>
         </div>
       </Layout>
     )
   }
 }
 
-export default CategoryTemplate
+export default NotesRoute
 
 export const pageQuery = graphql`
-  query CategoryPage($category: String) {
+  query NotesQuery {
     site {
       siteMetadata {
         title
@@ -48,13 +57,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      filter: {
-        frontmatter: {
-          category: { eq: $category }
-          layout: { in: ["post", "note"] }
-          draft: { ne: true }
-        }
-      }
+      filter: { frontmatter: { layout: { eq: "note" }, draft: { ne: true } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
@@ -65,6 +68,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            layout
             date
             category
             description

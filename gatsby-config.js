@@ -7,27 +7,31 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'razvan florescu',
     subtitle:
       'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
+    copyright: '2019 © All rights reserved.',
     disqusShortname: '',
     menu: [
+      // {
+      //   label: 'thoughts',
+      //   path: '/thoughts',
+      // },
       {
-        label: 'Articles',
+        label: 'notes',
+        path: '/notes',
+      },
+      {
+        label: '/now',
+        path: '/now',
+      },
+      {
+        label: 'about',
         path: '/',
-      },
-      {
-        label: 'About me',
-        path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
       },
     ],
     author: {
-      name: 'John Doe',
+      name: 'razvan florescu',
       email: '#',
       telegram: '#',
       twitter: '#',
