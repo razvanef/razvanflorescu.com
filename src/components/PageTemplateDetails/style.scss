@@ -15,4 +15,8 @@
         @include line-height(1);
         @include margin(0, 0, 1);
     }
+    h4 {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
 }

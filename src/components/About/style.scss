@@ -1,0 +1,11 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.about {
+  lost-column: 2/3;
+
+  .gatsby-resp-image-link {
+    max-width: 600px !important;
+    height: auto !important;
+  }  
+}

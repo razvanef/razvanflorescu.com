@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import Note from '../components/Note'
 import Sidebar from '../components/Sidebar'
 
-class IndexRoute extends React.Component {
+class NotesRoute extends React.Component {
   render() {
     const items = []
     const { title, subtitle } = this.props.data.site.siteMetadata
@@ -13,7 +13,7 @@ class IndexRoute extends React.Component {
     posts.forEach(post => {
       items.push(<Note data={post} key={post.node.fields.slug} />)
     })
-
+console.log(this.props.data.allMarkdownRemark)
     return (
       <Layout>
         <div>
@@ -31,7 +31,7 @@ class IndexRoute extends React.Component {
   }
 }
 
-export default IndexRoute
+export default NotesRoute
 
 export const pageQuery = graphql`
   query NotesQuery {
@@ -68,6 +68,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            layout
             date
             category
             description

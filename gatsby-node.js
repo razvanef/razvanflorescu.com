@@ -47,7 +47,7 @@ exports.createPages = ({ graphql, actions }) => {
             component: slash(pageTemplate),
             context: { slug: edge.node.fields.slug },
           })
-        } else if (_.get(edge, 'node.frontmatter.layout') === 'post') {
+        } else if (_.get(edge, 'node.frontmatter.layout') === 'post' || _.get(edge, 'node.frontmatter.layout') === 'note') {
           createPage({
             path: edge.node.fields.slug,
             component: slash(postTemplate),

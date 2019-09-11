@@ -51,7 +51,7 @@ export const pageQuery = graphql`
       filter: {
         frontmatter: {
           category: { eq: $category }
-          layout: { eq: "post" }
+          layout: { in: ["post", "note"] }
           draft: { ne: true }
         }
       }
