@@ -13,10 +13,10 @@ module.exports = {
     copyright: '2019 © All rights reserved.',
     disqusShortname: '',
     menu: [
-      {
-        label: 'thoughts',
-        path: '/thoughts',
-      },
+      // {
+      //   label: 'thoughts',
+      //   path: '/thoughts',
+      // },
       {
         label: 'notes',
         path: '/notes',
