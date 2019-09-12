@@ -14,3 +14,5 @@ Born on a tuesday afternoon in Ploiesti, Romania, living and studying in Buchar
 
 
 ![selfie](DSC_0246-1024x683.jpg "selfie")
+
+<sub>this site is work in progress</sub>
