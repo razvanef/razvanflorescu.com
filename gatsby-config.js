@@ -8,8 +8,8 @@ module.exports = {
     url,
     siteUrl: url,
     title: 'razvan florescu',
-    // subtitle:
-    //   'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    subtitle:
+      '',
     copyright: '2019 © All rights reserved.',
     disqusShortname: '',
     menu: [
