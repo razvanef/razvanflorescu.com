@@ -54,7 +54,9 @@ class Sidebar extends React.Component {
       <div className="sidebar">
         <div className="sidebar__inner">
           <div className="sidebar__author">{authorBlock}</div>
-          <div>
+          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
+          <div className="navigation">
             <Menu data={menu} />
             <Links data={config.socialLinks} />
             <p className="sidebar__copyright">{copyright}</p>
