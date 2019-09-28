@@ -1,6 +1,6 @@
 ---
 title: Declarative vs Imperative Programming
-date: "2019-10-09T23:46:37.121Z"
+date: "2019-09-10T23:46:37.121Z"
 layout: note
 draft: false
 path: "/notes/declarative-vs-imperative-programming/"
