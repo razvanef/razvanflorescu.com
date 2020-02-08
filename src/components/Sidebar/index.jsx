@@ -20,7 +20,7 @@ class Sidebar extends React.Component {
 
     /* eslint-disable jsx-a11y/img-redundant-alt */
     const authorBlock = (
-      <div>
+      <div className="sidebar__author">
         {/* {profilePic ? (
         <Link to="/">
           <img
@@ -53,7 +53,7 @@ class Sidebar extends React.Component {
     return (
       <div className="sidebar">
         <div className="sidebar__inner">
-          <div className="sidebar__author">{authorBlock}</div>
+          {authorBlock}
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
           <div className="navigation">

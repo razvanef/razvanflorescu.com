@@ -16,6 +16,7 @@
       background-clip: padding-box;
     }
     &-title {
+      width: 200px;
       font-size: $typographic-base-font-size * 2.625;
       font-weight: 500;
       @include line-height(2);
@@ -67,10 +68,17 @@
 
 @include breakpoint-md {
   .sidebar {
-    lost-column: 1/4;
+    lost-column: 1/3;
+    
     &__inner {
       padding: 40px;
     }
+  }
+}
+
+@include breakpoint-xlg {
+  .sidebar {
+    lost-column: 1/4;
   }
 }
 
