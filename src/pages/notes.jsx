@@ -13,18 +13,16 @@ class NotesRoute extends React.Component {
     posts.forEach(post => {
       items.push(<Note data={post} key={post.node.fields.slug} />)
     })
-console.log(this.props.data.allMarkdownRemark)
+
     return (
       <Layout>
-        <div>
-          <Helmet>
-            <title>{title}</title>
-            <meta name="description" content={subtitle} />
-          </Helmet>
-          <Sidebar {...this.props} />
-          <div className="content">
-            <div className="content__inner">{items}</div>
-          </div>
+        <Helmet>
+          <title>{title}</title>
+          <meta name="description" content={subtitle} />
+        </Helmet>
+        <Sidebar {...this.props} />
+        <div className="content">
+          <div className="content__inner">{items}</div>
         </div>
       </Layout>
     )

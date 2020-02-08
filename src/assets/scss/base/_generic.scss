@@ -18,6 +18,24 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.dark-mode {
+    filter: invert(100%) hue-rotate(80deg);
+    background-color: #333;
+
+    &--toggle {
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: $typographic-base-font-size*2;
+        z-index: 1;
+    }
+
+    img, video, iframe, figure {
+        filter: invert(100%) hue-rotate(-80deg);
+    }
+}
+
 h1,
 h2,
 h3,
@@ -173,5 +191,11 @@ figcaption {
         &__inner {
             padding: 40px 35px;
         }
+    }
+}
+
+@include breakpoint-xlg {
+    .content {
+        lost-column: 3/4;
     }
 }

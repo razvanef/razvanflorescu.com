@@ -12,11 +12,9 @@ class PostTemplateDetails extends React.Component {
     const back = post.frontmatter.layout === "note" ? "/notes" : "/thoughts"
 
     const homeBlock = (
-      <div>
-        <Link className="post-single__home-button" to={back}>
-          Go back
-        </Link>
-      </div>
+      <Link className="post-single__home-button" to={back}>
+        Go back
+      </Link>
     )
 
     const tagsBlock = (
@@ -35,12 +33,10 @@ class PostTemplateDetails extends React.Component {
     )
 
     const commentsBlock = (
-      <div>
-        <Disqus
-          postNode={post}
-          siteMetadata={this.props.data.site.siteMetadata}
-        />
-      </div>
+      <Disqus
+        postNode={post}
+        siteMetadata={this.props.data.site.siteMetadata}
+      />
     )
 
     return (

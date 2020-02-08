@@ -1,5 +1,7 @@
 
 .icon-mail:before { content: '\e800'; } /* '' */
+.icon-moon-inv:before { content: '\e801'; } /* '' */
+.icon-sun:before { content: '\e802'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-rss:before { content: '\f09e'; } /* '' */

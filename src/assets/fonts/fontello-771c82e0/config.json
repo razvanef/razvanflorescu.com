@@ -103,6 +103,18 @@
       "src": "fontawesome"
     },
     {
+      "uid": "c2152732d525871cf35345955854f711",
+      "css": "moon-inv",
+      "code": 59393,
+      "src": "iconic"
+    },
+    {
+      "uid": "9f41cbda67dafb38926a4201a01691c9",
+      "css": "sun",
+      "code": 59394,
+      "src": "iconic"
+    },
+    {
       "uid": "190ef5c5f25ece755d6d64130ae02f80",
       "css": "file-text2",
       "code": 59396,
