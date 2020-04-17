@@ -3,7 +3,7 @@ title: Highlighted link css
 date: "2020-04-17T19:01:00+03:00"
 layout: note
 draft: false
-path: "/posts/highlighted-link-css/"
+path: "/notes/highlighted-link-css/"
 category: "Web Dev"
 tags:
   - "webdev"

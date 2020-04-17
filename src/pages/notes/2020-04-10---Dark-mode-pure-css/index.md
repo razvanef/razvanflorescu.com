@@ -3,7 +3,7 @@ title: Dark mode with pure css
 date: "2020-04-10T11:30:00+03:00"
 layout: note
 draft: false
-path: "/posts/dark-mode-css/"
+path: "/notes/dark-mode-css/"
 category: "Web Dev"
 tags:
   - "webdev"

@@ -3,7 +3,7 @@ title: In JavaScript, functions are objects
 date: "2019-09-11T22:46:37.121Z"
 layout: note
 draft: false
-path: "/posts/in-javascript-functions-are-objects/"
+path: "/notes/in-javascript-functions-are-objects/"
 category: "Web Dev"
 tags:
   - "webdev"

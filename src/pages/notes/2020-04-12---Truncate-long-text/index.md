@@ -3,7 +3,7 @@ title: Truncate long text
 date: "2020-04-12T09:30:00+03:00"
 layout: note
 draft: false
-path: "/posts/truncate-long-text/"
+path: "/notes/truncate-long-text/"
 category: "Web Dev"
 tags:
   - "webdev"

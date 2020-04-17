@@ -3,7 +3,7 @@ title: Edit any page as a document
 date: "2019-09-28T11:33:44+03:00"
 layout: note
 draft: false
-path: "/posts/edit-any-document/"
+path: "/notes/edit-any-document/"
 category: "Web Dev"
 tags:
   - "webdev"
