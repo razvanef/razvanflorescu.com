@@ -14,7 +14,7 @@ Currently living in Bucharest [44.4268° N, 26.1025° E](https://www.google.com/
 WFH 9to5: [new.raiffeisenonline.ro](http://new.raiffeisenonline.ro/)  
 24/7: [esennoua.ro](esennoua.ro)  
 this website  
-buiding [Podcasturi Romanesti](https://podcasturi-romanesti.netlify.app/) - the romanian podcasts directory
+buiding [Podcasturi Romanesti](https://podcasturiromanesti.ro) - the romanian podcasts directory
 
 #### Learning
 Angular  
