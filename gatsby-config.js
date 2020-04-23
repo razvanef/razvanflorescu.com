@@ -128,7 +128,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-41403531-3' },
+      options: { trackingId: 'UA-41403531-4' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
