@@ -1,15 +1,14 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://razvanflorescu.com'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
     title: 'razvan florescu',
-    subtitle:
-      '',
+    subtitle: '',
     copyright: '2019 © All rights reserved.',
     disqusShortname: '',
     menu: [
