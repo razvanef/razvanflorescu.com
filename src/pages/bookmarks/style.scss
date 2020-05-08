@@ -1,0 +1,30 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.bookmarks {
+    
+    .bookmark {
+        display: flex;
+        padding: 20px;
+        border-bottom: 1px solid $color-gray-border;
+
+        &-content {
+            flex: 1;
+
+            small {
+                padding-left: 26px;
+            }
+        }
+
+        .icon-link-ext {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: $typographic-base-font-size;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}

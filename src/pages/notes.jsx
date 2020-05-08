@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Note from '../components/Note'
 import Sidebar from '../components/Sidebar'
+import './bookmarks/style.scss'
 
 class NotesRoute extends React.Component {
   render() {

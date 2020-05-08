@@ -25,6 +25,10 @@ module.exports = {
         path: '/now',
       },
       {
+        label: '/bookmarks',
+        path: '/bookmarks'
+      },
+      {
         label: 'about',
         path: '/',
       },
@@ -40,11 +44,19 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-transformer-json`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/bookmarks`,
+        name: 'bookmarks',
       },
     },
     {
