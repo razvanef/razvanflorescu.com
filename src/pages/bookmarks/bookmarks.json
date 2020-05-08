@@ -1,0 +1,26 @@
+[
+    {
+        "url": "https://nav.al/rich",
+        "title": "How to get rich",
+        "site": "nav.al",
+        "type": "podcast"
+    },
+    {
+        "url": "https://medium.com/@awilkinson/the-power-of-anti-goals-c38f5f46d23c",
+        "title": "The Power of Anti-Goals",
+        "site": "medium.com/@awilkinson",
+        "type": "doc"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=miRVVsjL2dU",
+        "title": "Ray Dalio goes into detail on debt",
+        "site": "youtube.com",
+        "type": "video"
+    },
+    {
+        "url": "https://andrewchen.co/dumb-idea-paradox/",
+        "title": "The Dumb Idea Paradox: Why great ideas often start out by sounding dumb.",
+        "site": "andrewchen.co",
+        "type": "doc"
+    }
+]
