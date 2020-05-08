@@ -7,6 +7,13 @@
         display: flex;
         padding: 20px;
         border-bottom: 1px solid $color-gray-border;
+        color: $color-gray-text;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $typographic-link-s-font-color;
+        }
 
         &-content {
             flex: 1;

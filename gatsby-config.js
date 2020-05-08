@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: url,
     title: 'razvan florescu',
     subtitle: '',
-    copyright: '2019 © All rights reserved.',
+    copyright: '2020 © All rights reserved.',
     disqusShortname: '',
     menu: [
       // {
