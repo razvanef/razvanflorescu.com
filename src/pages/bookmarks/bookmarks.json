@@ -22,5 +22,23 @@
         "title": "The Dumb Idea Paradox: Why great ideas often start out by sounding dumb.",
         "site": "andrewchen.co",
         "type": "doc"
+    },
+    {
+        "url": "https://twitter.com/mkobach/status/1143700956347019265",
+        "title": "Actual habits of successful people",
+        "site": "twitter.com/mkobach",
+        "type": "twitter"
+    },
+    {
+        "url": "http://www.paulgraham.com/vb.html",
+        "title": "Life is Short",
+        "site": "paulgraham.com",
+        "type": "doc"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=LdrVVJPlUK4",
+        "title": "Kobe Bryant - The Power of Sleep & Meditation",
+        "site": "youtube.com",
+        "type": "video"
     }
 ]
