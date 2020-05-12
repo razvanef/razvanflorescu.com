@@ -125,7 +125,7 @@ module.exports = {
               name: `razvan florescu`,
               short_name: `razvanflorescu`,
               start_url: `/`,
-              icon: `src/assets/images/favicon3.ico`
+              icon: `src/assets/images/favicon.ico`
             },
           },
           {
