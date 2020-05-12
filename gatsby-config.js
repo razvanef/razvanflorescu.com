@@ -120,6 +120,15 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+              name: `razvan florescu`,
+              short_name: `razvanflorescu`,
+              start_url: `/`,
+              icon: `src/assets/images/favicon3.ico`
+            },
+          },
+          {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 960,
