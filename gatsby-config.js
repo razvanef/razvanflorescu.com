@@ -17,7 +17,7 @@ module.exports = {
       //   path: '/thoughts',
       // },
       {
-        label: 'notes',
+        label: '/notes',
         path: '/notes',
       },
       {

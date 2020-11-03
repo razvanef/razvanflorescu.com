@@ -12,8 +12,8 @@
         "type": "doc"
     },
     {
-        "url": "https://www.youtube.com/watch?v=miRVVsjL2dU",
-        "title": "Ray Dalio goes into detail on debt",
+        "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0",
+        "title": "How The Economic Machine Works by Ray Dalio",
         "site": "youtube.com",
         "type": "video"
     },
@@ -40,5 +40,11 @@
         "title": "Kobe Bryant - The Power of Sleep & Meditation",
         "site": "youtube.com",
         "type": "video"
+    },
+    {
+        "url": "https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html",
+        "title": "The Day You Became A Better Writer",
+        "site": "dilbertblog.typepad.com",
+        "type": "doc"
     }
 ]

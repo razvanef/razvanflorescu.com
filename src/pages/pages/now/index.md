@@ -4,7 +4,7 @@ layout: page
 path: "/now"
 ---
 
-self-isolation since march 12th
+8th month of quarantine
 
 ### What I’m doing now
 
@@ -14,17 +14,16 @@ Currently living in Bucharest [44.4268° N, 26.1025° E](https://www.google.com/
 WFH 9to5: [new.raiffeisenonline.ro](http://new.raiffeisenonline.ro/)  
 24/7: [esennoua.ro](esennoua.ro)  
 this website  
-buiding [Podcasturi Romanesti](https://podcasturiromanesti.ro) - the romanian podcasts directory
+buiding [Podcasturi Romanesti](https://podcasturiromanesti.ro) - the romanian podcasts directory  //on hold
 
 #### Learning
-Angular  
-VueJs
+RxJs  
+How the economy works
 
 #### Reading
-Why we sleep - Matthew Walker  
-Atomic habits - James Clear
+The Subtle Art of Not Giving a F*ck - Mark Manson
 
 <br >
-*updated april 18th*
+*updated november 3th*
 
 <sub>Inspired by [Derek Sivers](https://sivers.org/nowff)' /now page, which turned into a [movement](http://nownownow.com/about) — an updated page of what I’m up to these days. </sub>
