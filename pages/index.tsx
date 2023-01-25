@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Link from 'next/link'
 import { SocialLinks } from '../components/SocialLinks'
 
 const Home: NextPage = () => {
@@ -9,8 +10,12 @@ const Home: NextPage = () => {
             </div>
             <p>
                 I&apos;m a front end engineer and entrepreneur passionated about future of technology and it&apos;s social impact.<br />
-                Currently building <a href="https://www.druidai.com/chatbots-in-the-press/druid-launches-a-new-conversational-ai-category-conversational-business-applications" data-toggle="tooltip" data-placement="top" title="Conversational Business Applications" target="_blank" rel="noreferrer">CBA</a> at <a href="https://www.druidai.com/chatbots-in-the-press/" target="_blank" rel="noreferrer">Druid AI</a> <a href="https://www.druidai.com/chatbots-in-the-press/druid-launches-a-new-conversational-ai-category-conversational-business-applications" target="_blank" rel="noreferrer">online banking</a> platform and <a href="https://esennoua.ro" target="_blank" rel="noreferrer">Esential Noua</a>, a sustenability zero-waste brand.<br />
+                Currently building <a href="https://www.druidai.com/chatbots-in-the-press/druid-launches-a-new-conversational-ai-category-conversational-business-applications" data-toggle="tooltip" data-placement="top" title="Conversational Business Applications" target="_blank" rel="noreferrer">CBA</a> at <a href="https://www.druidai.com/chatbots-in-the-press/" target="_blank" rel="noreferrer">Druid AI</a> platform and <a href="https://esennoua.ro" target="_blank" rel="noreferrer">Esential Noua</a>, a sustenability zero-waste brand.<br />
                 Born on a tuesday afternoon in Ploiesti, Romania, living and studying in Bucharest.
+            </p>
+            <br />
+            <p>
+                Go check my <Link href="/notes">/notes</Link> and <Link href="/bookmarks">/bookmarks</Link>.
             </p>
             <SocialLinks />
         </div>
