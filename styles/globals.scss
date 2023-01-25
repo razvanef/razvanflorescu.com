@@ -1,0 +1,60 @@
+@import 'colors';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p a {
+  color: inherit;
+  text-decoration: none;
+  background: linear-gradient(to right, rgba($light-blue, .3), $light-blue);
+  background-size: 100% 10%;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition-property: background-position;
+  transition: background-size .3s;
+
+  &:hover {
+    background-size: 300% 50%;
+  }
+}
+
+a:hover {
+  color: #f7a046;
+}
+
+.logo {
+  width: min-intrinsic;       /* old Chrome, Safari */
+  width: -webkit-min-content; /* less old Chrome, Safari */
+  width: -moz-min-content;    /* current Firefox */
+  width: min-content; 
+}
+
+.vertical-ellipsis {
+  display: -webkit-box;
+  line-height: 1.4;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
