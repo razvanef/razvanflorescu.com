@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://nav.al/rich",
+        "title": "How to get rich",
+        "site": "nav.al",
+        "type": "podcast"
+    },
+    {
+        "url": "https://medium.com/@awilkinson/the-power-of-anti-goals-c38f5f46d23c",
+        "title": "The Power of Anti-Goals",
+        "site": "medium.com/@awilkinson",
+        "type": "article"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0",
+        "title": "How The Economic Machine Works by Ray Dalio",
+        "site": "youtube.com",
+        "type": "video"
+    },
+    {
+        "url": "https://andrewchen.co/dumb-idea-paradox/",
+        "title": "The Dumb Idea Paradox: Why great ideas often start out by sounding dumb.",
+        "site": "andrewchen.co",
+        "type": "article"
+    },
+    {
+        "url": "https://twitter.com/mkobach/status/1143700956347019265",
+        "title": "Actual habits of successful people",
+        "site": "twitter.com/mkobach",
+        "type": "twitter"
+    },
+    {
+        "url": "http://www.paulgraham.com/vb.html",
+        "title": "Life is Short",
+        "site": "paulgraham.com",
+        "type": "article"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=LdrVVJPlUK4",
+        "title": "Kobe Bryant - The Power of Sleep & Meditation",
+        "site": "youtube.com",
+        "type": "video"
+    },
+    {
+        "url": "https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html",
+        "title": "The Day You Became A Better Writer",
+        "site": "dilbertblog.typepad.com",
+        "type": "article"
+    },
+    {
+        "url": "https://fs.blog/2012/04/david-foster-wallace-this-is-water/",
+        "title": "This is Water by David Foster Wallace",
+        "site": "fs.blog",
+        "type": "article"
+    },
+    {
+        "url": "https://patrickcollison.com/advice",
+        "title": "Advice",
+        "site": "patrickcollison.com",
+        "type": "article"
+    }
+]
