@@ -14,7 +14,7 @@ const Home: NextPage = () => {
                 Born on a tuesday afternoon in Ploiesti, Romania, living and studying in Bucharest.
             </p>
             <div className="flex justify-between items-center text-stone-500 mt-6">
-                <div><Link href="/notes">/notes</Link> <Link href="/bookmarks">/bookmarks</Link></div><SocialLinks />
+                <div><Link href="/bookmarks">/bookmarks</Link></div><SocialLinks />
             </div>
             
         </div>
