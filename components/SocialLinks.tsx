@@ -14,10 +14,10 @@ export const SocialLinks = () => {
         <div>
             <ul className="flex my-2">
                 {links.map(link => {
-                    return link.url ? (<li className="flex items-center mx-1 px-1 bg-stone-100 text-stone-700 hover:text-stone-500 rounded-sm w-6 h-6 text-center" key={link.name}>
+                    return link.url ? (<li className="flex items-center mx-1 justify-center bg-stone-100 text-stone-700 hover:text-stone-500 rounded-sm w-6 h-6 text-center" key={link.name}>
                         {link.name==='mail' ? (
                             <>
-                                <a
+                                <a className='flex'
                                     onClick={() => copyEmailToCliboard(link.url)}
                                 >
                                     <i className={`${link.icon} text-sm`} />
@@ -25,7 +25,7 @@ export const SocialLinks = () => {
                                 {mailCopied ? <small className="flex items-center ml-1 h-6 whitespace-nowrap bg-stone-100">Mail Copied!</small> : ''}
                             </>
                         ) : (
-                            <a
+                            <a className='flex'
                                 href={link.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
